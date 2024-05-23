@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+body{
+width: 100vw;
+height: 100vh;
+background-color: whitesmoke;
+display: flex;
+justify-content: flex-end;
+
+align-items: center;
+background-image: url(/img/back.jpg);
+background-size: cover;
+
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+    background:linear-gradient(to top left,rgb(217, 222, 163),rgb(101, 87, 97));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255,0.5),
+   0 0 5px 5px rgba(255, 255, 255,0.5)
+
+    ;
+}
+
+form{
+
+    /* box-shadow: 4px 4px 5px 5px white inset,
+    -4px -4px 5px 5px white inset
+    ; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+select{
+border: none;
+outline: none;
+background-color: transparent;
+color: white;
+font-weight: 900;
+}
+option{
+    color: gray;
+
+}
+
+h4{
+    color: white;
+    font-size: 1.2em;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#gelen{
+    background-color: white;
+    color: gray;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 95%;
+
+}
+
+button{
+    padding: 5px 28px;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    width: 95%;
+    border-radius: 4px;
+    border: none;
+    color: gray;
+    font-weight: 700;
+}
+.p1{
+
+    text-align: center;
+}
+#gelendeyer{
+    text-align: center;
+    color: rgb(34, 24, 34);
+    font-weight: 700;
+    background-color:transparent;
+
+    font-size: 3em;
+}
+
+input{
+padding: 5px;
+width: 80%;
+border: none;
+outline: none;
+border-radius: 4px;
+font-size: 1.3em;
+color: gray;
+font-weight: 700;
+
+}
+

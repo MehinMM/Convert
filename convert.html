@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/convert.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="/js/convert.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="#">
+            <p>
+            <input type="number" id="yazdigimdeyer">
+            <select id="secdiyim">
+                <option value="AZN">AZN</option>
+                <option value="TRY">TRY</option>
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+                <option value="AUD">AUD</option>
+                <option value="GEL">GEL</option>
+                <option value="RUB">RUB</option>
+                <option value="INR">INR</option>
+                <option value="GBP">GBP</option>
+
+
+            </select>
+        </p>
+        <p> <h4>Hansı valyutaya çevirmək istəyirsiniz?</h4>
+            <select id="gelen">
+                <option value="AZN">AZN</option>
+                <option value="TRY">TRY</option>
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+                <option value="AUD">AUD</option>
+                <option value="GEL">GEL</option>
+                <option value="RUB">RUB</option>
+                <option value="INR">INR</option>
+                <option value="GBP">GBP</option>
+
+               
+
+                
+            </select>
+        </p>
+        
+        <button id="cevir">Cevir</button>
+       <div class="p1"><input type="number" id="gelendeyer" disabled></div> 
+    </form>
+</div>
+</body>
+</html>
